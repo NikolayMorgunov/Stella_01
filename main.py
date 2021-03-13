@@ -10,4 +10,4 @@ SAT_NAME = "NOAA 19                 "
 LATITUDE = 55.93013
 LONGITUDE = 37.51832
 
-from_strings(TLE_FILE, SAT_NAME)
+print(from_strings(TLE_FILE, SAT_NAME))
