@@ -6,6 +6,6 @@ def pars(lst):
     ans['node long'] = float(lst[2][17:25]) #долгота восходящего узла
     ans['e'] = float('.' + lst[2][26:33]) #эксцентриситет
     ans['aver anomaly'] = float(lst[2][43:51]) #средняя аномалия
-    ans['periapsis'] = float(lst[2][43:51]) #аргумент перицентра
+    ans['periapsis'] = float(lst[2][34:42]) #аргумент перицентра
     ans['freq'] = float(lst[2][52:63]) #частота обращения витков/день
     return ans
