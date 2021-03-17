@@ -152,8 +152,8 @@ while t <= end_dt.timestamp():
     A = 180 * A / pi
     if A < 0:
         A += 360
-    print(elevation)
-    print(A)
+    print('theta =', elevation)
+    print('phi =', A)
     print()
     t += 60
     cur_time = new_time.new_time(cur_time)
